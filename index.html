@@ -13,9 +13,9 @@
 		<!-- Header -->
 			<header id="header">
 				<a href="#" class="image avatar"><img id="konami" src="images/yo.png" alt="Miguel Álvarez" /></a>
-				<h2>"The proper study of mankind<br /> 
+				<h2 id="konamitext">"The proper study of mankind<br /> 
 				is the science of design"</h2>	
-				<h1><i>Herbert Simon</i></h1>
+				<h1 id="konamiauthor"><i>Herbert Simon</i></h1>
 			</header>
 
 		<!-- Main -->
@@ -202,6 +202,8 @@
 			  var runKonami = function() {
 			  	var image = document.getElementById('konami');
 			  	image.src = "images/yo_konami.jpg";
+			  	document.getElementById("konamitext").textContent= '"I intend to live forever, or die trying"';
+			  	document.getElementById("konamiauthor").textContent="Groucho Marx";
 			    };
 			  document.addEventListener('keyup', checkKonami);
 			</script>
