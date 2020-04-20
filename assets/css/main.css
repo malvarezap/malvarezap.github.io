@@ -1611,6 +1611,7 @@
 		}
 
 	h1 {
+		color: #bff3ff;
 		font-size: 2em;
 		line-height: 1.5em;
 	}
@@ -2484,7 +2485,6 @@
 		}
 
 		#header h1 {
-			color: #81F7D8;
 			font-size: 1.35em;
 			line-height: 1.75em;
 			margin: 0;
