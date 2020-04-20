@@ -1547,7 +1547,7 @@
 /* Basic */
 
 	body {
-		background: #fff;
+		background: #000c28;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -2075,7 +2075,7 @@
 			}
 
 		.image.avatar {
-			border-radius: 100%;
+			border-radius: 0%;
 		}
 
 			.image.avatar:before {
@@ -2083,7 +2083,7 @@
 			}
 
 			.image.avatar img {
-				border-radius: 100%;
+				border-radius: 0%;
 				width: 100%;
 			}
 
@@ -2459,11 +2459,11 @@
 /* Header */
 
 	#header {
-		background-color: #086A87;
+		background-color: #000c28;
 		background-attachment: scroll,								fixed;
-		background-image: url("images/overlay.png"), url("../../images/blue-bg.jpg");
+		background-image: url("images/overlay.png"), url("../../images/bg.png");
 		background-position: top left,							top left;
-		background-repeat: repeat,								no-repeat;
+		background-repeat: repeat,								repeat;
 		background-size: auto,								auto 100%;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
@@ -2547,6 +2547,7 @@
 		max-width: 54em;
 		padding: 8em 4em 4em 4em;
 		width: calc(100% - 35%);
+		background-color: #000c28;
 	}
 
 		#main > section {
